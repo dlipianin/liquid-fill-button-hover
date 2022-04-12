@@ -10,7 +10,7 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #262626;
-  padding: 5%;
+  padding: 20%;
 }
 
 h1 {
@@ -95,8 +95,11 @@ button:nth-child(12) {
   filter: hue-rotate(280deg);
 }
 
-@media screen and (max-width: 333px) {
+@media (max-width: 480px) {
   button {
     width: 100%;
+  }
+  h1 {
+    font-size: 1rem;
   }
 }
