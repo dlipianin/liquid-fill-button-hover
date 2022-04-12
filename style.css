@@ -1,0 +1,102 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #262626;
+  padding: 5%;
+}
+
+h1 {
+  width: 100%;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+
+button {
+  width: 45%;
+  padding: 3%;
+  border-radius: 20px;
+  color: white;
+  border: 3px solid #284cff;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: url("https://web.archive.org/web/20160312084140im_/http://splatoon.nintendo.com/assets/img/nav-bg-fill-blue.png?1443460871");
+  background-repeat: repeat-x;
+  background-position: 0 -200%;
+  transition: 1.5s ease;
+}
+
+button:hover {
+  background-position: center;
+}
+
+button:nth-child(1) {
+  filter: hue-rotate(0deg);
+}
+
+button:nth-child(2) {
+  filter: hue-rotate(20deg);
+}
+
+button:nth-child(3) {
+  filter: hue-rotate(40deg);
+}
+
+button:nth-child(4) {
+  filter: hue-rotate(60deg);
+}
+
+button:nth-child(5) {
+  filter: hue-rotate(80deg);
+}
+
+button:nth-child(6) {
+  filter: hue-rotate(100deg);
+}
+
+button:nth-child(7) {
+  filter: hue-rotate(120deg);
+}
+
+button:nth-child(8) {
+  filter: hue-rotate(160deg);
+}
+
+button:nth-child(9) {
+  filter: hue-rotate(180deg);
+}
+
+button:nth-child(10) {
+  filter: hue-rotate(200deg);
+}
+
+button:nth-child(11) {
+  filter: hue-rotate(240deg);
+}
+
+button:nth-child(12) {
+  filter: hue-rotate(280deg);
+}
+
+@media screen and (max-width: 333px) {
+  button {
+    width: 100%;
+  }
+}
